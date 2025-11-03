@@ -58,7 +58,8 @@ Java-Internship-Tasks
 |--- src
 |    |--- tasks
 |    |       |--- basics
-|    |       |    |--- Calculator.java
+|    |       |    |--- Calculator
+|    |       |    |--- NumberGuessingGame
 |    |       |--- intermediate
 |    |       |--- advanced
 |--- README.md

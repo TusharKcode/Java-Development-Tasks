@@ -50,7 +50,6 @@ This project demonstrate how to:
 - Handle invalid (non-numeric) inputs
 
 ---
-
 ## Folder Structure
 
 ```
@@ -65,7 +64,7 @@ Java-Internship-Tasks
 |--- README.md
 
 ```
-
+---
 ## Technologies Used
 
 - *Language* : Java

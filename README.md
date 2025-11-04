@@ -50,6 +50,22 @@ This project demonstrate how to:
 - Handle invalid (non-numeric) inputs
 
 ---
+## Basic Task 3 :  Factorial Calculation using Recursion
+
+### Description
+A Java console application that calculates factorial of a given number using recursion.
+
+This project demonstrate how to:
+- Implements recursive functions in Java.
+- Handles base and recursive cases effectively.
+- Manage invalid inputs such as negative numbers.
+---
+###  Objectives
+- Implement a recursive method to compute the factorial. 
+- Handle edges cases like factorial of 0 = 1.
+- Display appropriate messages for negative numbers or invalid inputs.
+
+---
 ## Folder Structure
 
 ```
@@ -59,6 +75,7 @@ Java-Internship-Tasks
 |    |       |--- basics
 |    |       |    |--- Calculator
 |    |       |    |--- NumberGuessingGame
+|    |       |    |--- Factorial
 |    |       |--- intermediate
 |    |       |--- advanced
 |--- README.md

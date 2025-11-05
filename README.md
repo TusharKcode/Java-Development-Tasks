@@ -18,7 +18,7 @@
 ### Description
 A simple Java console application that performs **basic arithmetic operations** - Addition, Subtraction, Multiplication, Division - based on user input.
 
-This project demonstrate how to:
+#### This project demonstrate how to:
 - Create and structure a java class with separate methods for each operation. 
 - Accept user inputs using the scanner class. 
 - Handle invalid inputs and division by zero cases gracefully. 
@@ -38,7 +38,7 @@ This project demonstrate how to:
 ### Description
 A Java console game where the computer randomly selects a number and the user must guess it within a limited number of attempts. 
 
-This project demonstrate how to:
+#### This project demonstrate how to:
 - Generates a random number between 1 and 100.
 - Uses loops and conditionals to check each guess.
 - Ends when the user guesses correctly or runs out of attempts.
@@ -55,7 +55,7 @@ This project demonstrate how to:
 ### Description
 A Java console application that calculates factorial of a given number using recursion.
 
-This project demonstrate how to:
+#### This project demonstrate how to:
 - Implements recursive functions in Java.
 - Handles base and recursive cases effectively.
 - Manage invalid inputs such as negative numbers.
@@ -64,6 +64,28 @@ This project demonstrate how to:
 - Implement a recursive method to compute the factorial. 
 - Handle edges cases like factorial of 0 = 1.
 - Display appropriate messages for negative numbers or invalid inputs.
+
+---
+
+## Intermediate Task 1 : Employee Management System
+
+### Description
+A Java console-based application that manages employee records using Object-Oriented Programming (OOP) concept.
+It allows user to perform CRUD (Create, Read, Update, Delete) operations on employee data stored in memory.
+
+#### This project demonstrate how to:
+- Create and uses classes and objects in Java.
+- Manage data using collections like `Arraylist`.
+- Implement CRUD functionality with user interaction via the console.
+- Handle invalid inputs and edge cases effectively.
+
+---
+### Objectives
+- Define an `Employee` class with fields such as ID, Name and Salary.
+- Implements methods to Add, View, Update and Delete employee records.
+- Use `ArrayList` to store employee data dynamically.
+- Apply control structure `loops, conditionals, switch` for user menu navigation.
+- Handle invalid or duplicate entries gracefully.
 
 ---
 ## Folder Structure
@@ -77,6 +99,7 @@ Java-Internship-Tasks
 |    |       |    |--- NumberGuessingGame
 |    |       |    |--- Factorial
 |    |       |--- intermediate
+|    |       |    |--- EmployeeManagementSystem
 |    |       |--- advanced
 |--- README.md
 

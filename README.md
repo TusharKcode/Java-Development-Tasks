@@ -109,6 +109,28 @@ A Java console-based application that demonstrate file handling by reading data 
 - Display the summary result in the console for quick verification.
 
 ---
+
+## Intermediate Task 3 : Simple Banking Application
+
+### Description
+A Java console-based application that simulates simple banking operations such 
+as depositing money, withdrawing funds and checking account balance.
+
+#### This project demonstrate how to:
+- Implement a `BankAccount` class with private fields and public methods.
+- Use Java methods for deposit, withdrawal and balance checking.
+- Applying condition checks (e.g.,insufficient balance).
+- Create a menu-driven console interface for user interaction.
+- Handle invalid inputs gracefully to avoid runtime issues.
+
+---
+### Objectives
+- Create a `BankAccount` class with `deposit()`, `withdraw()` and `checkBalance()`.
+- Validate transactions to prevent invalid or insufficient withdrawals.
+- Simulate continuous user interaction using loops and console input. 
+- Display clear transactions messages and updated balance information.
+
+---
 ## Folder Structure
 
 ```
@@ -121,6 +143,8 @@ Java-Internship-Tasks
 |    |       |    |--- Factorial
 |    |       |--- intermediate
 |    |       |    |--- EmployeeManagementSystem
+|    |       |    |--- FileHandlingTask
+|    |       |    |--- BankingAppTask
 |    |       |--- advanced
 |--- README.md
 
@@ -133,3 +157,5 @@ Java-Internship-Tasks
 - *Java Version* : 17+
 
 ---
+## LinkedIn Profile
+Tushar Kumar - [https://www.linkedin.com/in/tushar-kumar-developer/]

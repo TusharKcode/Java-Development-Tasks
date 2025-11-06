@@ -88,6 +88,27 @@ It allows user to perform CRUD (Create, Read, Update, Delete) operations on empl
 - Handle invalid or duplicate entries gracefully.
 
 ---
+
+## Intermediate Task 2 : File Handling - Reading and Writing to a file
+
+### Description
+A Java console-based application that demonstrate file handling by reading data form one text file, processing it (counting line and words) and writing the summary to another file. 
+
+#### This project demonstrate how to:
+- Uses Java's `BufferReader` and `BufferWriter` for file I/O operations.
+- Read content line by line from an input file.
+- Process text to count total lines and words.
+- Write the processed summary into an output file.
+- Handle file-related exceptions such as `FileNotFoundException` and `IOException`.
+
+---
+### Objectives
+- Read a text file and count the number of lines and words.
+- Write the processed output to a new file.
+- Handle exceptions gracefully to ensure reliable file operations.
+- Display the summary result in the console for quick verification.
+
+---
 ## Folder Structure
 
 ```

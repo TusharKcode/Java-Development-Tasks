@@ -179,6 +179,8 @@ Java-Internship-Tasks
 |    |       |    |     |--- models       ---> includes Bank, Transaction, User files
 |    |       |    |     |--- service      ---> includes Library services
 |    |       |    |     |--- DBConnection ---> connected to mysql
+|--- sql
+|    |---library_db
 |--- README.md
 
 ```

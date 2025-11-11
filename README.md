@@ -147,10 +147,12 @@ A Java console-based application that manages library operations such as adding 
 
 ---
 ### Objectives
-- Create a `BankAccount` class with `deposit()`, `withdraw()` and `checkBalance()`.
-- Validate transactions to prevent invalid or insufficient withdrawals.
-- Simulate continuous user interaction using loops and console input.
-- Display clear transactions messages and updated balance information.
+- Design tables in MySQL (`books`, `users`, `transactions`) and connect them using JDBC.
+- Implement methods to : `addBooks()`, `addUser()`, `borrowBook()`,`returnBook()`, `getAllBooks()`, `getAllUsers()`, `getAllTransactions()`.
+- Maintain book quantity and availability automatically.
+- Log every borrow/return operations in transactions table.
+- Provide continuously interactive console-based menu until exit.
+- Ensure proper error messages when book/users are not found.
 
 ---
 
@@ -169,15 +171,25 @@ Java-Internship-Tasks
 |    |       |    |--- FileHandlingTask
 |    |       |    |--- BankingAppTask
 |    |       |--- advanced
+|    |       |    |--- Library
+|    |       |    |     |--- app          ---> includes main file
+|    |       |    |     |--- dao          ---> includes (Bank, Transaction, User) DAO
+|    |       |    |     |--- models       ---> includes Bank, Transaction, User files
+|    |       |    |     |--- service      ---> includes Library services
+|    |       |    |     |--- DBConnection ---> connected to mysql
 |--- README.md
 
 ```
 ---
 ## Technologies Used
 
-- *Language* : Java
-- *IDE* : IntelliJ IDEA 
-- *Java Version* : 17+
+- *Language*          : Java
+- *IDE*               : IntelliJ IDEA 
+- *Java Version*      : 17+
+- *Database*          : MySQL
+- *Database Connector*: JDBC (MySQL Connector/J)
+- *Architecture*      : DAO (Data Access Object) Pattern
+- *Build/Execution*   : JDK compiler & Console-based application 
 
 ---
 ## LinkedIn Profile

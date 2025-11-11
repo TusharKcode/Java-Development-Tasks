@@ -131,6 +131,29 @@ as depositing money, withdrawing funds and checking account balance.
 - Display clear transactions messages and updated balance information.
 
 ---
+## Advanced Task 1 : Library Management System
+
+### Description
+A Java console-based application that manages library operations such as adding books, registering users, borrowing and returning books and viewing transactions. 
+
+#### This project demonstrate how to:
+- Implement a `Book`, `User`, and `Transaction` model classes.
+- Build DAO (Data Access Object) layers for database interactions.
+- Use MySQL with JDBC for CRUD operations.
+- Manage book availability and quantity updates dynamically.
+- Record all borrowing and returning activities using a transaction logs.
+- Create a clean, menu-driven console interface for user interaction.
+- Handle invalid data inputs and missing records gracefully.
+
+---
+### Objectives
+- Create a `BankAccount` class with `deposit()`, `withdraw()` and `checkBalance()`.
+- Validate transactions to prevent invalid or insufficient withdrawals.
+- Simulate continuous user interaction using loops and console input.
+- Display clear transactions messages and updated balance information.
+
+---
+
 ## Folder Structure
 
 ```

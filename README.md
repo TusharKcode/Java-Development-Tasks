@@ -191,21 +191,25 @@ with each other in real-time using `multithreading` and `Java Sockets`.
 Java-Internship-Tasks
 |--- src
 |    |--- tasks
-|    |       |--- basics
-|    |       |    |--- Calculator
-|    |       |    |--- NumberGuessingGame
-|    |       |    |--- Factorial
-|    |       |--- intermediate
-|    |       |    |--- EmployeeManagementSystem
-|    |       |    |--- FileHandlingTask
-|    |       |    |--- BankingAppTask
-|    |       |--- advanced
-|    |       |    |--- Library
-|    |       |    |     |--- app          ---> includes main file
-|    |       |    |     |--- dao          ---> includes (Bank, Transaction, User) DAO
-|    |       |    |     |--- models       ---> includes Bank, Transaction, User files
-|    |       |    |     |--- service      ---> includes Library services
-|    |       |    |     |--- DBConnection ---> connected to mysql
+|            |--- basics
+|            |    |--- Calculator
+|            |    |--- NumberGuessingGame
+|            |    |--- Factorial
+|            |--- intermediate
+|            |    |--- EmployeeManagementSystem
+|            |    |--- FileHandlingTask
+|            |    |--- BankingAppTask
+|            |--- advanced
+|            |    |--- Library
+|            |    |     |--- app          ---> includes main file
+|            |    |     |--- dao          ---> includes (Bank, Transaction, User) DAO
+|            |    |     |--- models       ---> includes Bank, Transaction, User files
+|            |    |     |--- service      ---> includes Library services
+|            |    |     |--- DBConnection ---> connected to mysql
+|            |    |--- Chat Application
+|            |    |     |--- Chat Client   ---> Client Program
+|            |    |     |--- Chat Server   ---> Main server
+|            |    |     |--- Chat Handler  ---> Thread Handler for each Client
 |--- sql
 |    |---library_db
 |--- README.md

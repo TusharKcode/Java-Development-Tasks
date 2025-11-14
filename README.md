@@ -157,6 +157,33 @@ books and viewing transactions.
 - Ensure proper error messages when book/users are not found.
 
 ---
+## Advanced Task 2 : Multi-Threaded Chat Application
+
+### Description
+A Java console-based chat system that enables multiple users to communicate
+with each other in real-time using `multithreading` and `Java Sockets`.
+
+#### This project demonstrate how to:
+- Implement a `Chat Server` to handle incoming client connections.
+- Use `Client Handler` threads to manage multiple clients simultaneously.
+- Build a `Chat Client` program that sends and receives messages on separate threads. 
+- Manage book availability and quantity updates dynamically.
+- Apply Socket programming `Server Socket`,`Socket` for networking.
+- Use Input/Output streams for continuous message transfer.
+- Create a real-time broadcast system for all connected clients.
+- Handle client disconnections gracefully without stopping the server.
+
+---
+### Objectives
+- Implement a server that listen for clients using `Server Socket`.
+- Create a multithreaded architecture using a `Client Handler` class.
+- Allow each client to send and receive real-time messages through the server.
+- Broadcast one client's message to all other connected clients.
+- Maintain continuous communication until `exit` is typed by the user.
+- Display proper server and client messages (connection, disconnection, errors).
+- Support multiple client instances using IntelliJ's `Allow multiple instances` option. 
+
+---
 
 ## Folder Structure
 

@@ -184,7 +184,32 @@ with each other in real-time using `multithreading` and `Java Sockets`.
 - Support multiple client instances using IntelliJ's `Allow multiple instances` option. 
 
 ---
+## Advanced Task 3 : Binary Search Tree (BST) Implementation
 
+### Description
+A Java console-based implementation of a Binary Search Tree (BST) data structure wih core operations like 
+insertion, deletion, searching and tree traversal `in-roder`, `pre-order`, `post-order`.
+
+#### This project demonstrate how to:
+- Define a `Tree Node` class for representing nodes in a tree.
+- Implement `insert()`, `search()` and `delete()` operations in BST.
+- Apply recursive traversal algorithms: In-order, Pre-order, Post-order.
+- Understand and handle all deletion cases (leaf node, one child, two children).
+- Use recursive efficiently for tree navigation. 
+- Work with hierarchical data structure in Java.
+- Display BST elements in sorted and traversal order using console output.
+
+---
+### Objectives
+- Create a `Tree Node` class with `value`, `left`, `right` references.
+- Implement BST method: `insert()`, `search()`, `delete()`, `in-roder`, `pre-order`, `post-order`.
+- Handle special cases while deleting: Node with no children, one child, two children.
+- Ensure Tree structure remains valid after every operation.
+- Display tree output clearly using console-based UI.
+- Demonstrate recursion and decision-based traversal logic.
+
+
+---
 ## Folder Structure
 
 ```
@@ -210,6 +235,10 @@ Java-Internship-Tasks
 |            |    |     |--- Chat Client   ---> Client Program
 |            |    |     |--- Chat Server   ---> Main server
 |            |    |     |--- Chat Handler  ---> Thread Handler for each Client
+|            |    |--- BST
+|            |    |     |--- Binary Search Tree
+|            |    |     |--- BSTMain
+|            |    |     |--- Tree Node
 |--- sql
 |    |---library_db
 |--- README.md
